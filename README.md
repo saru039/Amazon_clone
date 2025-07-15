@@ -1,12 +1,63 @@
-# React + Vite
+# 🛒 Amazon Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive Amazon clone built using **React**, **Firebase**, **Material UI**, and **Vite**.  
+This project replicates major eCommerce features like product listings, add-to-cart, user authentication, and checkout flow.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- 🧑‍💻 User Authentication with Firebase
+- 🛍 Add to Basket functionality (React Context API)
+- 🧾 Subtotal price calculation
+- 💳 Fake payment screen
+- 📦 Checkout page
+- 🔐 Protected Sign-in/Sign-out flow
+- 🎨 Material UI Icons & Design
+- ⚡️ Vite for blazing-fast development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+| Technology    | Usage                        |
+|---------------|------------------------------|
+| React         | Frontend UI                  |
+| Vite          | Development & Build Tool     |
+| Firebase      | Hosting & Authentication     |
+| React Router  | Page navigation              |
+| Context API   | Global state (cart & user)   |
+| Material UI   | UI Icons & Components        |
+
+---
+
+## 📁 Folder Structure
+
+Amazon_clone/
+├── public/
+├── src/
+│ ├── Components/
+│ │ ├── Header/
+│ │ ├── Product/
+│ │ ├── Checkout/
+│ │ └── ...
+│ ├── App.jsx
+│ ├── main.jsx
+├── firebase.js
+├── package.json
+├── vite.config.js
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/saru039/Amazon_clone.git
+cd Amazon_clone
