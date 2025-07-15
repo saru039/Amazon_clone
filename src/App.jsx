@@ -3,7 +3,7 @@ import Header from './Components/Header/Header'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Checkout from './Components/Checkout/Checkout'
 import Home from './Components/Home/Home'
-import Login from './Components/Login/login'
+import Login from './Components/Login/Login'
 import {useStatevalue} from './Components/StateProvider/StateProvider'
 import { auth } from './firebase'
 
